@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/background.jfif);
+    padding: 70px;
+    padding-top: 110px;
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+   
+}
+header h1{
+    color: white;
+    font-size: 45px;
+}
+article{
+    width: 95%;
+    padding: 20px;
+    height: auto;
+    margin-top: 50px;
+}
+article{
+    text-align: justify;
+}
+article h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-left: 80px;
+}
+article p{
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+article div p:first-child{
+    color: red;
+}
+article div p:last-child{
+    color: blue;
+}
+article img{
+    position: static;
+    margin-left: 105px;
+    width: 960px;
+    height: 350px;
+    margin-bottom: 25px;
+}
+footer{
+    position: absolute;
+    left: 100px;
+    max-height: 400px;
+    min-width: 300px;
+    padding: 50px;
+    height: auto;
+    width: auto;
+    background-color: grey;
+    text-align: justify;
+    margin: 30px;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+}
+footer ul li{
+    display: block;
+}
+footer ul:first-child li:first-of-type h4:first-of-type{
+    color: red;
+}
+footer ul li img{
+    width: 150px;
+    height: 90px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+footer ul li p{
+    font-size: 10px;
+    width: 145px;
+    height: 90px;
+}
+footer ul li h4{
+    color: blue;
+}
+footer ul li button{
+    background-color:  blue;
+    border-radius: 5px;
+}
+footer ul:first-child li:first-of-type button:first-of-type{
+    background-color:  red;
+    border-radius: 5px;
+}
+footer ul:first-child li:last-of-type h4:last-of-type{
+    color: orange;
+}
+footer ul:first-child li:last-of-type button:last-of-type{
+    background-color:  orange;
+    border-radius: 5px;
+}
